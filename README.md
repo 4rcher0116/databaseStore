@@ -53,7 +53,7 @@ This guide walks you through restoring a `.backup` file into a PostgreSQL databa
 
 ### **7. Configure the Restore Options**
 1. In the **"Restore"** dialog:
-   - **Filename**: Click the ellipsis button (`...`) to browse and select the 'parkBackup.backup` file located in this repo.
+   - **Filename**: Click the ellipsis button (`...`) to browse and select the 'amusementFinder.backup` file located in this repo.
    - **Format**: Ensure it is set to **"Custom or tar"** since `.backup` files are in this format.
 2. Expand **"Restore Options"** (optional, if applicable):
    - **Clean**: Check this box to drop existing objects before restoring them.
