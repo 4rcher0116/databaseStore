@@ -53,7 +53,7 @@ This guide walks you through restoring a `.backup` file into a PostgreSQL databa
 
 ### **7. Configure the Restore Options**
 1. In the **"Restore"** dialog:
-   - **Filename**: Click the ellipsis button (`...`) to browse and select your `.backup` file.
+   - **Filename**: Click the ellipsis button (`...`) to browse and select the 'parkBackup.backup` file located in this repo.
    - **Format**: Ensure it is set to **"Custom or tar"** since `.backup` files are in this format.
 2. Expand **"Restore Options"** (optional, if applicable):
    - **Clean**: Check this box to drop existing objects before restoring them.
@@ -90,7 +90,7 @@ This guide walks you through restoring a `.backup` file into a PostgreSQL databa
 ---
 
 ### **4. Write and Execute SQL Queries**
-- Copy and paste the query from the list of test queries into the query editor.
+- Copy and paste the query from the list of test queries into the query editor (Test Scripts located in the SampleQueries.txt or SampleQueries.sql file).
 - To execute a query, click the **Execute/Play** button (the lightning bolt icon) or press **F5**.
 
 ---
